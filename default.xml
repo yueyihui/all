@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	 <remote  name="github"
+		 fetch="git@github.com:" />
+	 <default revision ="refs/heads/master"
+		 remote="github"
+		 sync-j="4"/>
+	 <project path="art" name="yueyihui/kernel_time_print" groups="pdk" remote="github" />
+	 <project path="tool" name="yueyihui/android_notify_active" groups="pdk" remote="github" />
+</manifest>
